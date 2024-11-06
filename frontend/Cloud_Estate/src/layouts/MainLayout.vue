@@ -78,6 +78,18 @@ const linksList = [
     icon: 'how_to_reg',
     link: '#/registracija'
   },
+  {
+    title: 'Iznajmi nekretninu',
+    caption: 'Nekretnine za najam',
+    icon: 'apartment',
+    link: '#/najam_nekretnina'
+  },
+{
+    title: 'Mapa',
+    caption: 'Mapa sa  dostupnim nekretninama',
+    icon: 'map',
+    link: '#/mapa_nekretnina'
+  },
 ]
 
 const leftDrawerOpen = ref(false)

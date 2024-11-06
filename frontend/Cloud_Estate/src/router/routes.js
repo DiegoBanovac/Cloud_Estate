@@ -7,6 +7,8 @@ const routes = [
       { path: '/kupnja_nekretnina', component: () => import('pages/KupnjaNekretninaPage.vue') },
       { path: '/login', component: () => import('pages/LoginPage.vue') },
       { path: '/registracija', component: () => import('pages/RegistracijaPage.vue') },
+      { path: '/najam_nekretnina', component: () => import('pages/NajamNekretninaPage.vue') },
+      { path: '/mapa_nekretnina', component: () => import('pages/MapaNekretninaPage.vue') },
     ]
     
   },
