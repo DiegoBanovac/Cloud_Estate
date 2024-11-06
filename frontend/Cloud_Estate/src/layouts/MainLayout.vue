@@ -66,6 +66,18 @@ const linksList = [
     icon: 'home_work',
     link: '#/kupnja_nekretnina'
   },
+  {
+    title: 'Prijava',
+    caption: 'Prijava postoječih korisnika',
+    icon: 'login',
+    link: '#/login'
+  },
+  {
+    title: 'Registracija',
+    caption: 'Registracija novih korisnika',
+    icon: 'how_to_reg',
+    link: '#/registracija'
+  },
 ]
 
 const leftDrawerOpen = ref(false)
