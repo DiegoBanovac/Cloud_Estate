@@ -57,6 +57,23 @@ const linksList = [
     link: "#/kupnja_nekretnina",
   },
   {
+    title: 'Iznajmi nekretninu',
+    caption: 'Nekretnine za najam',
+    icon: 'apartment',
+    link: '#/najam_nekretnina'
+  },
+  {
+    title: 'Mapa',
+    caption: 'Mapa sa  dostupnim nekretninama',
+    icon: 'map',
+    link: '#/mapa_nekretnina'
+  },
+  {title: "Agencije",
+    caption: "Lista agencija koje surađuju s nama",
+    icon: "real_estate_agent",
+    link: "#/popis_agencija",
+  },
+  {
     title: "Prijava",
     caption: "Prijava postoječih korisnika",
     icon: "login",
@@ -69,33 +86,12 @@ const linksList = [
     link: "#/registracija",
   },
   {
-<<<<<<< HEAD
-    title: 'Iznajmi nekretninu',
-    caption: 'Nekretnine za najam',
-    icon: 'apartment',
-    link: '#/najam_nekretnina'
-  },
-{
-    title: 'Mapa',
-    caption: 'Mapa sa  dostupnim nekretninama',
-    icon: 'map',
-    link: '#/mapa_nekretnina'
-  },
-]
-=======
-    title: "Agencije",
-    caption: "Lista agencija koje surađuju s nama",
-    icon: "real_estate_agent",
-    link: "#/popis_agencija",
-  },
-  {
     title: "O nama",
     caption: "Opis naše vizije i misije",
     icon: "info",
     link: "#/o_nama",
-  },
+  }
 ];
->>>>>>> ffe8f37f76287724b04fab73546796350ce6e745
 
 const leftDrawerOpen = ref(false);
 
